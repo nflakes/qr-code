@@ -1,0 +1,98 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+    min-height: 100vh;
+    background-color: #D6E2F0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+    width: 320px;
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+    background-color: #FFFFFF;
+}
+
+img { 
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px 16px 0px 16px;
+    gap: 16px;
+}
+
+h3 {
+    font-size: 1.37rem;
+    line-height: 120%;
+    font-weight: 700;
+    color: #1F314F;
+}
+
+p {
+    font-size: 0.93rem;
+    line-height: 140%;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: #68778D;
+}
